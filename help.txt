@@ -1,0 +1,21 @@
+Description :
+------------
+	
+Le programme est un projet d'architecture Système de L2 Sdn (par Julian et Thomas)
+Il permet de lancer et de contrôler un processus autonome réalisant des missions simples.
+
+	--help : Affiche ce fichier
+
+	--start : Demarre le démon. Cette option fonctionne uniquement si le démon est en marche.
+
+	--stop : Arrête le démon. Cette option fonctionne uniquement si le démon est arrêté.
+
+	--state : Affiche l'état du démon.
+
+	--restart : Arrête le démon et le redémarre.
+
+	--date : Affiche la date. Cette option fonctionne uniquement si le démon est en marche.
+
+	--duration : Affiche le temps écoulé depuis le lancement (ou la dernière remise à zéro). Cette option fonctionne uniquement si le démon est en marche.
+
+	--reset : Remet à zéro le chronomètre. Cette option fonctionne uniquement si le démon est en marche.  
